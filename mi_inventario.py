@@ -1,8 +1,8 @@
 import pandas as pd
 # definimos los datos (como una lista de diccionarios)
 dispositivos = [
-    {"nombre": "S25 Ultra", "rol": "Cerebro/Dex", "so": "Android"},
-    {"nombre": "Tab A9+", "rol": "Estudio/Monitor", "so": "Android"}
+    {"nombre": "S25 Ultra", "rol": "Cerebro/Dex", "so": "Android", "precio":1200}, 
+    {"nombre": "Tab A9+", "rol": "Estudio/Monitor", "so": "Android", "precio": 250}
     
 ]
 
