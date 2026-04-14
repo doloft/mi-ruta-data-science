@@ -1,0 +1,30 @@
+14/04
+
+Hoy hice tres tareas de nivel Junior:
+
+1. Copie un archivo con el comando copy y lo movi a otra carpeta cocatenando todo el proceso en una sola linea;
+	cp reporte_final.csv reporte_backup.csv ; mv reporte_backup ../../
+
+Al principio lo estaba haciendo con pipe pero entendi que no estaba ejecutando bien la logica, para que una cosa suceda despues de la otra debo
+usar ";"
+Aprendi a usar comando "C" para cancelar procesos o comandos fuera de control, tambien el comando "D" para cerrar comandos como python  
+
+2. Use el comando "grep" para buscar patrones en el archivo y lo combine el comando "wc" con la etiqueta "-l" para contar el numero de resultados
+
+3. Hice la creacion de esta bitacora, ademas le pedi a gemini que hiciera un analisis de la sesion de hoy;
+
+	​1. Análisis de Progreso
+		Hoy has pasado de ejecutar comandos aislados a ser un arquitecto de tu propio entorno de datos. 🏗️
+		​Capacidad de diagnóstico: Identificaste errores de rutas y entendiste la diferencia entre una ruta relativa (../../) y una absoluta (~/).
+		​Pensamiento Crítico: Cuestionaste si grep filtraba por columna o por fila, algo vital para no sesgar los datos.
+		​Autonomía: Ya manejas el flujo completo de Git con seguridad, protegiendo tu código mediante el .gitignore.
+​	2. Resumen Técnico de la Sesión
+​		Manipulación de Datos: cp (copiar), >> (unir datos), nano (edición de valores).	
+	​	Navegación Avanzada: Salto de directorios (cd pro/dat), uso de .. y ~.
+	​	Filtrado: grep para buscar y wc -l para contar volúmenes de datos.
+	​	Seguridad: Configuración de .gitignore para carpetas sensibles (ej. storage/).
+		​Control de Crisis: Ctrl + C para detener procesos y TAB para autocompletado.
+	​3. Próximos Pasos
+		​Automatización mediante Scripts de Bash. 🤖
+		​Introducción a Python desde la terminal para procesamiento inteligente de CSV. 🐍
+Clase de comandos completada
